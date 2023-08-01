@@ -1,0 +1,21 @@
+baseURL: "file://PATH_TO_LOCAL_MWE_PROJECT/public/"
+canonifyURLs: true
+relativeURLs: false
+uglyurls: true
+
+languageCode: "de-DE"
+metaDataFormat: "yaml"
+
+theme:
+  - "relearn"
+
+outputs:
+  home:
+    - HTML
+    - PRINT
+  section:
+    - HTML
+    - PRINT
+  page:
+    - HTML
+    - PRINT
