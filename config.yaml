@@ -1,4 +1,7 @@
-baseURL: "file://PATH_TO_LOCAL_MWE_PROJECT/public/"
+# this is either runnable from the projects root
+# - with Hugo's webserver by `hugo server`
+# - or by compiling `hugo --cleanDestinationDir` and `npx http-server . -p 1313`
+baseURL: "http://localhost:1313/public/"
 canonifyURLs: true
 relativeURLs: false
 uglyurls: true
