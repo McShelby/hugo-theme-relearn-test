@@ -9,3 +9,5 @@ This is a "single page" in a "branch bundle" and should be available.
 {{< children showhidden="true" >}}
 
 ![This is Figure C](img/c.png)
+
+![This is Figure D](d.png)

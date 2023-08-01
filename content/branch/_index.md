@@ -9,3 +9,5 @@ This is a "branch bundle": All other markdown content next to this file (`_index
 {{< children showhidden="true" >}}
 
 ![This is Figure C](img/c.png)
+
+![This is Figure D](d.png)
