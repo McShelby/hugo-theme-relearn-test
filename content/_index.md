@@ -24,17 +24,26 @@ We have defined a few pages and some image resources in this example to see how 
 
 ## Flavor
 
-- `md hugo` is the default implementation of Hugo without any own render hooks
-- `md theme old` is the current render hook of the theme
-- `md theme jmo` is the implementation of [Joe Morington](https://www.veriphor.com/articles/link-and-image-render-hooks/)
+- `md hugo` is the default implementation of Hugo without any own render hooks (to test, remove the themes `render-link.html` render hook)
+- `md theme old` is the current render hook of the theme (the default in this test)
+- `md theme jmo` is the implementation of [Joe Morington](https://www.veriphor.com/articles/link-and-image-render-hooks/) (to test, replace the `render-link.html` render hook)
 
 ## OutputFormat
 
 - `html` is the display the HTML page in the browser
-- `print` is the display of the chapter by pressing CTRL+ALT+P in the browser
+- `print` is the display of the chapter by pressing CTRL+ALT+P on each pge in the browser
+
+## uglyURLs
+
+Hugos setting to change branch and leaf bundles URLs from eg. `branch.html` to `branch/index.html`
+
+## defaultContentLanguageInSubdir
+
+Only the default @defaultContentLanguageInSubdir=false@ was tested.
 
 ## Results
 
+- Results for `hi.png` and `bi.png` can be ignored, because of invalid Hugo structure.
 - Project relative and aboslute works always.
 - Page relative on the home page as branch bundle works always.
 - Hugo can not address resources in their containing branch bundle if uglyURLs=true.
