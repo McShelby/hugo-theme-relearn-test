@@ -6,6 +6,6 @@ weight: 1
 
 This is a "single page" in a "leaf bundle" and should **not** be available.
 
-{{< children showhidden="true" >}}
+As this is a not allowed configuration. This will not result in a generated page and therefore no tests are given here.
 
-![This is Figure B](img/b.png)
+{{< resources >}}

@@ -1,12 +1,10 @@
 ---
-archetype: "chapter"
-title: "Branch Bundle"
-weight: 2
+archetype: default
+title: "Single page in a branch bundle"
+weight: 1
 ---
 
-This is a "branch bundle": All other markdown content next to this file (`_index.md`) _should_ be available.
-
-The image resources are only available on the same directory level as the branch bundle itself. Thus `img/bi.png` should not be available.
+This is a "single page" in a "branch bundle" and should be available.
 
 {{< resources >}}
 
@@ -16,48 +14,48 @@ The image resources are only available on the same directory level as the branch
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
-| md hugo      | print        | `true`   | ok     |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
-| md theme old | html         | `true`   | nok    |
-| md theme old | print        | `true`   | ok     |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
-| md theme jmo | html         | `true`   | nok    |
-| md theme jmo | print        | `true`   | ok     |
-| md theme jmo | html         | `false`  | ok     |
-| md theme jmo | print        | `false`  | ok     |
+| md hugo      | html         | `true`   | ok     |
+| md hugo      | print        | `true`   | nok    |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
+| md theme old | html         | `true`   | ok     |
+| md theme old | print        | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
+| md theme jmo | html         | `true`   | ok     |
+| md theme jmo | print        | `true`   | nok    |
+| md theme jmo | html         | `false`  | nok    |
+| md theme jmo | print        | `false`  | nok    |
 
 ![Figure HI](../img/hi.png "HI")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
-| md hugo      | print        | `true`   | ok     |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
-| md theme old | html         | `true`   | nok    |
-| md theme old | print        | `true`   | ok     |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
-| md theme jmo | html         | `true`   | nok    |
-| md theme jmo | print        | `true`   | ok     |
-| md theme jmo | html         | `false`  | ok     |
-| md theme jmo | print        | `false`  | ok     |
+| md hugo      | html         | `true`   | ok     |
+| md hugo      | print        | `true`   | nok    |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
+| md theme old | html         | `true`   | ok     |
+| md theme old | print        | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
+| md theme jmo | html         | `true`   | ok     |
+| md theme jmo | print        | `true`   | nok    |
+| md theme jmo | html         | `false`  | nok    |
+| md theme jmo | print        | `false`  | nok    |
 
 ![Figure B](b.png "B")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
+| md hugo      | html         | `true`   | ok     |
 | md hugo      | print        | `true`   | nok    |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
 | md theme old | html         | `true`   | ok     |
-| md theme old | print        | `true`   | ok     |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
+| md theme old | print        | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
 | md theme jmo | html         | `true`   | ok     |
 | md theme jmo | print        | `true`   | ok     |
 | md theme jmo | html         | `false`  | ok     |
@@ -67,52 +65,52 @@ The image resources are only available on the same directory level as the branch
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
+| md hugo      | html         | `true`   | ok     |
 | md hugo      | print        | `true`   | nok    |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
-| md theme old | html         | `true`   | nok    |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
+| md theme old | html         | `true`   | ok     |
 | md theme old | print        | `true`   | nok    |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
-| md theme jmo | html         | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
+| md theme jmo | html         | `true`   | ok     |
 | md theme jmo | print        | `true`   | nok    |
-| md theme jmo | html         | `false`  | ok     |
-| md theme jmo | print        | `false`  | ok     |
+| md theme jmo | html         | `false`  | nok    |
+| md theme jmo | print        | `false`  | nok    |
 
 ![Figure L](../leaf/l.png "L")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
-| md hugo      | print        | `true`   | ok     |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
-| md theme old | html         | `true`   | nok    |
-| md theme old | print        | `true`   | ok     |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
-| md theme jmo | html         | `true`   | nok    |
-| md theme jmo | print        | `true`   | ok     |
-| md theme jmo | html         | `false`  | ok     |
-| md theme jmo | print        | `false`  | ok     |
+| md hugo      | html         | `true`   | ok     |
+| md hugo      | print        | `true`   | nok    |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
+| md theme old | html         | `true`   | ok     |
+| md theme old | print        | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
+| md theme jmo | html         | `true`   | ok     |
+| md theme jmo | print        | `true`   | nok    |
+| md theme jmo | html         | `false`  | nok    |
+| md theme jmo | print        | `false`  | nok    |
 
 ![FigureL LI](../leaf/img/li.png "LI")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
-| md hugo      | html         | `true`   | nok    |
-| md hugo      | print        | `true`   | ok     |
-| md hugo      | html         | `false`  | ok     |
-| md hugo      | print        | `false`  | ok     |
-| md theme old | html         | `true`   | nok    |
-| md theme old | print        | `true`   | ok     |
-| md theme old | html         | `false`  | ok     |
-| md theme old | print        | `false`  | ok     |
-| md theme jmo | html         | `true`   | nok    |
-| md theme jmo | print        | `true`   | ok     |
-| md theme jmo | html         | `false`  | ok     |
-| md theme jmo | print        | `false`  | ok     |
+| md hugo      | html         | `true`   | ok     |
+| md hugo      | print        | `true`   | nok    |
+| md hugo      | html         | `false`  | nok    |
+| md hugo      | print        | `false`  | nok    |
+| md theme old | html         | `true`   | ok     |
+| md theme old | print        | `true`   | nok    |
+| md theme old | html         | `false`  | nok    |
+| md theme old | print        | `false`  | nok    |
+| md theme jmo | html         | `true`   | ok     |
+| md theme jmo | print        | `true`   | nok    |
+| md theme jmo | html         | `false`  | nok    |
+| md theme jmo | print        | `false`  | nok    |
 
 #### Project Relative
 
