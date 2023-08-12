@@ -54,8 +54,6 @@ Only the default @defaultContentLanguageInSubdir=false@ was tested.
 #### Page Relative
 
 ![Figure H](h.png "H")
-![Figure H with dot](./h.png "H")
-
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -372,3 +370,6 @@ It's enough to test it on one page, we do not repeat this on the sub pages.
 | md theme jmo | print        | `true`   | ok     |
 | md theme jmo | html         | `false`  | ok     |
 | md theme jmo | print        | `false`  | ok     |
+
+![FigureL E](http://localhost:1313/public/e.png "E")
+
