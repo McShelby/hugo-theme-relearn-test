@@ -10,7 +10,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 
 #### Page Relative
 
-![Figure H](h.png "H")
+![Figure H](../h.png "H")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -27,7 +27,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 | md theme jmo | html         | `false`  | ok     |
 | md theme jmo | print        | `false`  | ok     |
 
-![Figure HI](img/hi.png "HI")
+![Figure HI](../img/hi.png "HI")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -44,7 +44,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 | md theme jmo | html         | `false`  | nok    |
 | md theme jmo | print        | `false`  | nok    |
 
-![Figure B](branch/b.png "B")
+![Figure B](../branch/b.png "B")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -61,7 +61,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 | md theme jmo | html         | `false`  | nok    |
 | md theme jmo | print        | `false`  | nok    |
 
-![Figure BI](branch/img/bi.png "BI")
+![Figure BI](../branch/img/bi.png "BI")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -78,7 +78,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 | md theme jmo | html         | `false`  | nok    |
 | md theme jmo | print        | `false`  | nok    |
 
-![Figure L](leaf/l.png "L")
+![Figure L](../leaf/l.png "L")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
@@ -95,7 +95,7 @@ This is a "single page" in a "branch bundle" and should **not** be available. Re
 | md theme jmo | html         | `false`  | nok    |
 | md theme jmo | print        | `false`  | nok    |
 
-![FigureL LI](leaf/img/li.png "LI")
+![FigureL LI](../leaf/img/li.png "LI")
 
 | flavor       | outputFormat | uglyURLs | result |
 |--------------|--------------|----------|--------|
